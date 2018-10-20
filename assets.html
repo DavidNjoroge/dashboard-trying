@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="assets.css">
+
+    <title>Document</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+</head>
+<body>
+    <!-- Html Code Here -->
+    <div class="main_wrapper">
+        <div class="sidebar">
+            <div class="property-header">Spika Properties</div>
+            <!-- <hr> -->
+            <ul>
+                <li><i class="fa fa-2x fa-home"></i>Assets</li>
+                <li class="active"><i class="fa fa-2x fa-home"></i>Houses</li>
+                <li><i class="fa fa-2x fa-home"></i>Payments</li>
+            </ul>
+        </div>
+        <main>
+            <!-- <div class="row-first">
+                <div class="some-card">
+                    <div class="card-hed">
+                        Recent payments
+                    </div>
+                </div>
+
+                <div class="some-card">
+                    <div class="card-hed">
+                        Recent payments
+                    </div>
+                </div>
+            </div> -->
+            
+            <div class="row-second">
+                <div class="some-card full">
+                    <div class="card-hed">
+                        <div class="form-group">
+                            <select class="form-control" id="asset-selector">
+                                <option>Mzea plot</option>
+                                <option>Spring apartments</option>
+                                <option>march</option>
+                                <option>4</option>
+                                <option>5</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="asset-wrapper">
+                        <div class="asset-detail-row">
+                            <div className="asset-column">
+                                <h4>Asset Details</h4>
+                                <p><span className="text-label">Asset:  </span>Spring Apartments</p>
+                                <p><span className="text-label">location: </span> Kiambu </p>
+                            </div>
+    
+                            <div className="asset-houses">
+                                <h4>Houses Details</h4>
+                                <p><span className="text-label">Houses Occupied: </span>15</p>
+                                <p><span className="text-label">Houses Empty: </span>5</p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="some-card full">
+                    <div class="card-hed">
+                        <div class="houses-payments">
+                            <div>
+                                <h4>Houses (15)</h4>
+                            </div>
+                            <div class="month-select">
+                                <div class="form-group">
+                                    <select class="form-control" id="exampleFormControlSelect1">
+                                        <option>January</option>
+                                        <option>February</option>
+                                        <option>march</option>
+                                        <option>4</option>
+                                        <option>5</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="asset-houses-stats">
+                        <table class="table table-striped">
+                            <thead>
+                                <tr>
+                                    <th class="th-slim" scope="col">#</th>
+                                    <th class="th-slim" scope="col">house number</th>
+                                    <th class="th-slim" scope="col">status</th>
+                                    <th scope="col">tenant name</th>
+                                    <th class="th-slim" scope="col">rent</th>
+                                    <th class="th-slim" scope="col">paid</th>
+
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th scope="row">1</th>
+                                    <td>A1</td>
+                                    <td>Occupied</td>
+                                    <td>david mwas</td>
+                                    <td>10,000</td>
+                                    <td>10,000</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">1</th>
+                                    <td>A1</td>
+                                    <td>Occupied</td>
+                                    <td>david mwas</td>
+                                    <td>10,000</td>
+                                    <td>10,000</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                </div>
+            </div>
+
+        </main>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
